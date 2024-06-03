@@ -39,7 +39,7 @@ function App() {
       <NameBadge name="Jason Le"/>
       <Menu/>
       <SocialMedia/>
-      <VStack>
+      <VStack spacing={3}>
         {Object.values(experience).map((exp, index) => (
           <Position
             key={index}
