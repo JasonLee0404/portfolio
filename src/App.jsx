@@ -11,26 +11,30 @@ import './App.css'
 function App() {
 
   const experience = {
-    marango: {
-      time: 'June 2019 - June 2021',
-      positionName: 'C++ Software Engineer',
-      technologies: ['C++', 'Lua', 'XML', 'MySQL', 'Boost', 'wxWidgets', 'Trello', 'Figma']
+    sweat: {
+      time: 'Dec 2022 - Present',
+      company: 'Sweat',
+      positionName: 'Platform Software Engineer',
+      technologies: ['Ruby', 'Ruby on Rails', 'Ember.js','Javascript', 'JQuery', 'Go', 'PostgresSQL', 'Atlassian Suite']
     },
-    complexica: {
-      time: 'June 2021 - December 2021',
-      positionName: 'Java Software Engineer',
-      technologies: ['Python', 'Django', 'Java', 'SpringBoot', 'PostgresSQL', 'MongoDB', 'Atlassian Suite']
-    }, 
     amplified_intelligence: {
       time: 'Jan 2022 - Dec 2022',
+      company: 'Amplified Intelligence',
       positionName: 'Product Software Engineer',
       technologies: ['React', 'Typescript', 'PostgresSQL', 'NodeJS', 'C#/.NET', 'TailwindCSS', 'Atlassian Suite']
     },
-    sweat: {
-      time: 'Dec 2022 - Present',
-      positionName: 'Platform Software Engineer',
-      technologies: ['Ruby', 'Ruby on Rails', 'Ember.js', 'Go', 'PostgresSQL', 'Atlassian Suite']
-    }
+    complexica: {
+      time: 'June 2021 - December 2021',
+      company: 'Complexica',
+      positionName: 'Java Software Engineer',
+      technologies: ['Python', 'Django', 'Java', 'SpringBoot', 'PostgresSQL', 'MongoDB', 'Atlassian Suite']
+    }, 
+    marango: {
+      time: 'June 2019 - June 2021',
+      company: 'Marango',
+      positionName: 'C++ Software Engineer',
+      technologies: ['C++', 'Lua', 'XML', 'MySQL', 'Boost', 'wxWidgets', 'Trello', 'Figma']
+    },
   };
 
 
@@ -44,6 +48,7 @@ function App() {
           <Position
             key={index}
             time={exp.time}
+            company={exp.company}
             positionName={exp.positionName}
             technologies={exp.technologies}
           />

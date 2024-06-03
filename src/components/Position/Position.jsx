@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Text, Tag, HStack} from '@chakra-ui/react';
 
-const Position = ({ time, positionName, technologies}) => {
+const Position = ({ time, company, positionName, technologies}) => {
     return (
       <Box
         display="inline-block"
@@ -15,8 +15,10 @@ const Position = ({ time, positionName, technologies}) => {
         <Text>
             {time}
         </Text>
-
-        <Text>
+        <Text fontSize="lg" fontWeight="bold">
+            {company}
+        </Text>
+        <Text fontSize="md" fontWeight="bold">
             {positionName}
         </Text>
 
