@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Text } from '@chakra-ui/react';
 
-const NameBadge = ({ name }) => {
+const Menu = ({}) => {
     return (
       <Box
         display="inline-block"
@@ -11,17 +11,17 @@ const NameBadge = ({ name }) => {
         borderRadius="sm"
         textAlign="left"
       >
-        <Text fontSize="2xl" fontWeight="bold">
-          {name}
+        <Text fontSize="l" fontWeight="bold">
+          About
         </Text>
         <Text fontSize="l" fontWeight="bold">
-          Software Engineer
+          Experience
         </Text>
         <Text fontSize="l" fontWeight="bold">
-          A student of the trade
+          Technologies
         </Text>
       </Box>
     );
   };
   
-  export default NameBadge;
+  export default Menu;
