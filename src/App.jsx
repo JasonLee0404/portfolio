@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import NameBadge from './components/NameBadge/NameBadge';
 import Menu from './components/Menu/Menu';
+import SocialMedia from './components/SocialMedia/SocialMedia';
 
 import './App.css'
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <NameBadge name="Jason Le"/>
       <Menu/>
+      <SocialMedia/>
     </>
   )
 }
