@@ -10,11 +10,10 @@ const SocialMedia = ({}) => {
         display="inline-block"
         bg="gray.200"
         color="black"
-        width="200px"
         borderRadius="sm"
         textAlign="left"
       >
-        <HStack>
+        <HStack spacing={8}>
             <Tooltip label='https://www.linkedin.com/in/jasonle1402/'>
                 <Link href='https://www.linkedin.com/in/jasonle1402/' color='gray.600'><FaLinkedin size={30}/></Link>
             </Tooltip>
