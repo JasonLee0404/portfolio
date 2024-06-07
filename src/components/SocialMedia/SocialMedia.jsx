@@ -8,9 +8,10 @@ const SocialMedia = ({}) => {
     return (
       <Box
         display="inline-block"
-        bg="gray.200"
+        bg="green.200"
         color="black"
-        borderRadius="sm"
+        borderRadius="md"
+        padding={2}
         textAlign="left"
       >
         <HStack spacing={8}>

@@ -21,3 +21,6 @@ make it clean like https://brittanychiang.com/
 have the flashlight highlighting gradient thing when the mouse move as well
 
 change the vite logo and the tag line as well
+
+write a paragraph for each company you worked at, and the details about the position
+what technologies you used. Front end back end

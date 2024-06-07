@@ -37,10 +37,10 @@ function App() {
   return (
     <>
       <Flex height="100vh">
-        {/* Left Column */}
         <Box
           flex="1"
-          bg="yellow.200"
+          bg="green.500"
+          color="white"
           overflowY="auto"
           width="100vh"
         >
@@ -56,11 +56,9 @@ function App() {
             <SocialMedia />
           </Box>
         </Box>
-
-        {/* Right Column */}
         <Box
           flex="1"
-          bg="red.500"
+          bg="green.500"
           overflowY="auto"
         >
           <VStack spacing={3} pt="20%">

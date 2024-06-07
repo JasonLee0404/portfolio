@@ -5,7 +5,7 @@ const Position = ({ time, company, positionName, technologies}) => {
     return (
       <Box
         padding={3}
-        bg="gray.200"
+        bg="green.200"
         width="35rem"
         borderRadius="1rem"
         textAlign="left"
@@ -23,7 +23,7 @@ const Position = ({ time, company, positionName, technologies}) => {
 
         <HStack spacing={2}>
             {technologies.map((tech, index) => (
-                <Tag size='sm' colorScheme='teal'>
+                <Tag size="sm" bg='green.50'>
                     {tech}
                 </Tag>
             ))}
