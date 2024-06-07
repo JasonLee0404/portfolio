@@ -1,18 +1,27 @@
 import React from 'react';
-import { Box, Text } from '@chakra-ui/react';
+import { Box, Text, Link } from '@chakra-ui/react';
 
 const Menu = ({}) => {
     return (
         <>
-            <Text fontSize="l" fontWeight="bold">
-                About
-            </Text>
-            <Text fontSize="l" fontWeight="bold">
-                Experience
-            </Text>
-            <Text fontSize="l" fontWeight="bold">
-                Technologies
-            </Text>
+            <Link
+                _hover={{ textDecoration: 'underline' }}
+            >
+                <Text fontSize="l" fontWeight="bold">About</Text>
+            </Link>
+
+            <Link
+                _hover={{ textDecoration: 'underline' }}
+            >
+                <Text fontSize="l" fontWeight="bold">Experience</Text>
+            </Link>
+
+            <Link
+                _hover={{ textDecoration: 'underline' }}
+            >
+                <Text fontSize="l" fontWeight="bold">Technologies</Text>
+            </Link>
+            
         </>
     );
   };
