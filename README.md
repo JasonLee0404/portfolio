@@ -23,4 +23,6 @@ have the flashlight highlighting gradient thing when the mouse move as well
 change the vite logo and the tag line as well
 
 write a paragraph for each company you worked at, and the details about the position
-what technologies you used. Front end back end
+what technologies you used. Front end back ends
+
+Making a website responsive means making the component based on percentage, instead of fixed width
