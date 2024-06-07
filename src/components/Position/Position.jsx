@@ -4,9 +4,10 @@ import { Box, Text, Tag, HStack} from '@chakra-ui/react';
 const Position = ({ time, company, positionName, technologies}) => {
     return (
       <Box
+        padding={3}
         bg="gray.200"
         width="35rem"
-        borderRadius="sm"
+        borderRadius="1rem"
         textAlign="left"
         _hover={{ bg: 'gray.300', boxShadow: 'lg', transform: 'scale(1.05)'}}
       >
